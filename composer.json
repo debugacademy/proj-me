@@ -22,7 +22,8 @@
         "drupal/core": "~8.0",
         "drush/drush": "~8.0",
         "drupal/console": "~1.0",
-        "drupal/webform": "^5.0@beta"
+        "drupal/webform": "^5.0@beta",
+        "drupal/admin_toolbar": "^1.18"
     },
     "require-dev": {
         "behat/mink": "~1.7",
