@@ -1,0 +1,18 @@
+uuid: 29320252-d957-40a7-9eaa-36848ef54eae
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Blog
+type: blog
+description: 'Posts of topics and subjects.'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: true
