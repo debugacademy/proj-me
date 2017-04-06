@@ -1,0 +1,12 @@
+name: 'Basic Page Core'
+description: 'Basic Page Core Set'
+type: module
+core: 8.x
+dependencies:
+  - field
+  - node
+  - path
+  - rdf
+  - text
+  - user
+version: 8.x-1.0
