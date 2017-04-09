@@ -5,10 +5,14 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.portfolio.body
+    - field.field.node.portfolio.field_picture
+    - field.field.node.portfolio.field_technologies
     - node.type.portfolio
   module:
     - text
     - user
+_core:
+  default_config_hash: _REL3P6cBJjhUWb0uVcX2tCef0ackQBPMyVC5IfCOSo
 id: node.portfolio.teaser
 targetEntityType: node
 bundle: portfolio
@@ -23,4 +27,6 @@ content:
     third_party_settings: {  }
   links:
     weight: 100
-hidden: {  }
+hidden:
+  field_picture: true
+  field_technologies: true

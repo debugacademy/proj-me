@@ -4,6 +4,8 @@ status: true
 dependencies:
   config:
     - node.type.portfolio
+_core:
+  default_config_hash: nxvgL0qPqp5lTogOoDxTVoPSQKl9MGlM1WCu3bR6O_8
 id: node.portfolio.promote
 field_name: promote
 entity_type: node

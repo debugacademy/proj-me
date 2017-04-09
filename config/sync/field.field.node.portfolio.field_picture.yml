@@ -7,6 +7,8 @@ dependencies:
     - node.type.portfolio
   module:
     - image
+_core:
+  default_config_hash: L5_S0WEi6YDfbbo1U3-sPtU4NCsqm1Y_5xCZ2KcI734
 id: node.portfolio.field_picture
 field_name: field_picture
 entity_type: node

@@ -12,6 +12,8 @@ dependencies:
     - image
     - path
     - text
+_core:
+  default_config_hash: cUqX88palKbkmb3ePH-5CLnsVzk9hdcKdQJcP0QQiGo
 id: node.portfolio.default
 targetEntityType: node
 bundle: portfolio

@@ -7,6 +7,8 @@ dependencies:
     - node.type.portfolio
   module:
     - text
+_core:
+  default_config_hash: 1isxOvSLMDWTrtwmNnsw9FTBTuRmFdwBsGPz-J8YLiY
 id: node.portfolio.body
 field_name: body
 entity_type: node

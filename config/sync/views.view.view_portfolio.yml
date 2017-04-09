@@ -11,6 +11,8 @@ dependencies:
     - image
     - node
     - user
+_core:
+  default_config_hash: 2PTStkLdTty4YGu0GyRDRLYk6-PH3QDUEtLkm5nwyvI
 id: view_portfolio
 label: Portfolio
 module: views

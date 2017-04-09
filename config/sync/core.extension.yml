@@ -8,12 +8,15 @@ module:
   color: 0
   comment: 0
   config: 0
+  config_update: 0
   contact: 0
   contextual: 0
   datetime: 0
   dblog: 0
   dynamic_page_cache: 0
   editor: 0
+  features: 0
+  features_ui: 0
   field: 0
   field_ui: 0
   file: 0
@@ -27,6 +30,7 @@ module:
   options: 0
   page_cache: 0
   path: 0
+  portfolio_feature: 0
   quickedit: 0
   rdf: 0
   search: 0

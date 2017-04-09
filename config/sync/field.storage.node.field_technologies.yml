@@ -5,6 +5,8 @@ dependencies:
   module:
     - node
     - taxonomy
+_core:
+  default_config_hash: 6RxhmNW-9ODOQKkvwTka8QrbykUXxG84HvUf1HOCnvM
 id: node.field_technologies
 field_name: field_technologies
 entity_type: node

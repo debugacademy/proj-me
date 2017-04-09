@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.storage.node.field_technologies
     - node.type.portfolio
+_core:
+  default_config_hash: F1AOAK8olzp_6g8pD8QuVQAayoNTzVInQ8x252C_Oxo
 id: node.portfolio.field_technologies
 field_name: field_technologies
 entity_type: node
