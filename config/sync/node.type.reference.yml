@@ -1,0 +1,18 @@
+uuid: b50d57cc-ca58-45ac-b07d-c3c63e6c9b03
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Reference
+type: reference
+description: 'Prof. references'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

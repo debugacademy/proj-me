@@ -1,21 +1,20 @@
-uuid: 48eb3a34-0f92-45b7-89b4-6adb3a84abf2
+uuid: 5dc97e7a-670d-4603-82c0-a1b003dd23e5
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.blog.body
-    - field.field.node.blog.field_blog_author
-    - field.field.node.blog.field_blog_image
-    - field.field.node.blog.field_referenece_image
+    - field.field.node.reference.body
+    - field.field.node.reference.field_organization
+    - field.field.node.reference.field_refe
     - image.style.thumbnail
-    - node.type.blog
+    - node.type.reference
   module:
     - image
     - path
     - text
-id: node.blog.default
+id: node.reference.default
 targetEntityType: node
-bundle: blog
+bundle: reference
 mode: default
 content:
   body:
@@ -31,22 +30,15 @@ content:
     weight: 10
     settings: {  }
     third_party_settings: {  }
-  field_blog_author:
+  field_organization:
     weight: 32
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
-  field_blog_image:
+  field_refe:
     weight: 33
-    settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
-    third_party_settings: {  }
-    type: image_image
-  field_referenece_image:
-    weight: 34
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
