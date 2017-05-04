@@ -24,7 +24,8 @@
         "drupal/console": "~1.0",
         "drupal/admin_toolbar": "^1",
         "drupal/social_media_links": "^2.2",
-        "drupal/features": "^3.5"
+        "drupal/features": "^3.5",
+        "drupal/bootstrap": "^3.3"
     },
     "require-dev": {
         "behat/mink": "~1.7",
