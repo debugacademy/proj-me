@@ -68,8 +68,13 @@ p:last-child,
   }
 }
 
-.contextual-region {
-    position: relative;
+    .contextual-region {
     float: right;
-    margin-right: 97px;
-    }
+    margin-right: 170px;
+}
+    
+
+.navbar.container {
+        min-height: 473px;
+    background-image: url(../images/hero.jpg);
+}
