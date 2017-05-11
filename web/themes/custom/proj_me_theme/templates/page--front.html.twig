@@ -182,6 +182,7 @@
   </div>
 {% endblock %}
 
+<footer class="footer {{container}}" role="contentinfo">
 {% if page.footer %}
   {% block footer %}
     <footer class="footer {{ container }}" role="contentinfo">
@@ -189,3 +190,9 @@
     </footer>
   {% endblock %}
 {% endif %}
+
+<div class="footer-copyright">
+<span class="footer-copyright-year">&#169; {{year}}</span> {{site_name}}
+all rights reserved 
+</div>
+</footer>

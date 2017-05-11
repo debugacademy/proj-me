@@ -68,14 +68,47 @@ p:last-child,
   }
 }
 
+//global settings
+$base-color: #bf5829;
+$base-grey: #525252;
+$black: #000000;
+$base-content: #f4f4f3;
+
+//Body styles
+body {
+	background-color: $black;
+}
+
 #hero {
     background-image: url(../images/hero.jpg);
     min-height: 700px;
     background-repeat: no-repeat;
-}
+    margin-left: 300px;
+    }
 
 #navbar {
     background-color: transparent;
     border: none;
+}
+
+.navbar-header {
+	width: 100%;
+}
+
+.footer {
+border-top: none 0px;
+margin-left: none;
+margin-right: none;
+}
+
+
+.footer-copyright {
+text-transform: uppercase;
+text-align: center;
+color: $base-grey;
+}
+	
+.footer-copyright-year {
+	color: $base-color;
 }
 
