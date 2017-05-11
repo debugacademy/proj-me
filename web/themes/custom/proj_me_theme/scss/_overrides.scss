@@ -14,6 +14,7 @@
 @import "component/table-drag";
 @import "component/tabs";
 @import "component/toolbar";
+@import "default-variables";
 
 // jQuery UI style overrides.
 @import "jquery-ui/autocomplete";
@@ -73,6 +74,35 @@ p:last-child,
    background-image:url('hero.jpg');
   }
 
+ // global settings
+$base-color: #bf5829;
+$base-grey: #525252;
+$black: #000000;
+$base-content: #f4f4f3;
+
+
+  .main-container {
+  
+  }
+
+  // BODY STYLE
+
+  body {
+  background-color: $black;
+
+  }
+  
+    // HEADER STYLES
+
+  .navbar-header {
+  
+  .block-social-media-links
+    li {
+    background-color: $base-color;
+    border-radius: 25px;
+    }
+  }
+
 
   .navbar-nav {
     position: relative;
@@ -85,6 +115,25 @@ p:last-child,
     right: -977px;
     bottom: 97px;
  }
+
+ // FOOTER STYLE
+ .footer {
+  margin-left: none;
+  margin-right: none;
+  color: $base-grey;
+  text-transform: uppercase;
+  text-align: center;
+  }
+
+  .footer-copyright {
+  color: $base-grey;
+}
+  .footer-copyright-year {
+  color: $base-color;
+
+  }
+  
+
 
 #header {
    background-image:url('hero.jpg');
