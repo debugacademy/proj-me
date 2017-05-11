@@ -5,3 +5,8 @@
  *
  * Place your custom PHP code in this file.
  */
+
+function proj_me_theme_preprocess(&$variables) {
+	$variables['year'] = date('Y');
+	$variables['site_name'] = \Drupal::config('system.site')->get('name');
+}
