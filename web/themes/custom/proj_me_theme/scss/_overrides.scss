@@ -68,13 +68,14 @@ p:last-child,
   }
 }
 
-    .contextual-region {
-    float: right;
-    margin-right: 170px;
-}
-    
-
-.navbar.container {
-        min-height: 473px;
+#hero {
     background-image: url(../images/hero.jpg);
+    min-height: 700px;
+    background-repeat: no-repeat;
 }
+
+#navbar {
+    background-color: transparent;
+    border: none;
+}
+

@@ -57,6 +57,8 @@
  */
 #}
 {% set container = theme.settings.fluid_container ? 'container-fluid' : 'container' %}
+
+<div id="hero">
 {# Navbar #}
 {% if page.navigation or page.navigation_collapsible %}
   {% block navbar %}
@@ -83,6 +85,7 @@
           </button>
         {% endif %}
       </div>
+     
 
       {# Navigation (collapsible) #}
       {% if page.navigation_collapsible %}
@@ -110,6 +113,7 @@
           </div>
         {% endblock %}
       {% endif %}
+       </div>
 
       {# Sidebar First #}
       {% if page.sidebar_first %}
@@ -185,4 +189,3 @@
     </footer>
   {% endblock %}
 {% endif %}
-body {{background-image: url}}
