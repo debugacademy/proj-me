@@ -6281,6 +6281,17 @@ body.toolbar-fixed.toolbar-vertical.toolbar-tray-open.toolbar-fixed {
       width: 240px; }
 
 /**
+ * Default Variables.
+ *
+ * Modify this file to provide default Bootstrap Framework variables. The
+ * Bootstrap Framework will not override any variables defined here because it
+ * uses the `!default` flag which will only set their default if not already
+ * defined here.
+ *
+ * You can copy existing variables directly from the following file:
+ * ./THEMENAME/bootstrap/assets/stylesheets/bootstrap/_variables.scss
+ */
+/**
  * jQuery UI autocomplete widget style overrides.
  *
  * $todo Remove once jQuery UI is no longer used?
@@ -6354,5 +6365,28 @@ p:last-child,
   padding: 0; }
   .help-block:first-child, .control-group .help-inline:first-child {
     margin-top: 0; }
+
+body {
+  background-color: #000000; }
+
+.navbar-header {
+  width: 100%; }
+  .navbar-header .block-social-media-links li {
+    background-color: #bf5829;
+    border-radius: 25px; }
+
+.main-container {
+  background-color: #f4f4f3; }
+
+.footer {
+  border-top: none 0px;
+  margin-left: none;
+  margin-right: none; }
+  .footer .footer-copyright {
+    color: #525252;
+    text-transform: uppercase;
+    text-align: center; }
+  .footer .footer-copyright-year {
+    color: #bf5829; }
 
 /*# sourceMappingURL=style.css.map */
