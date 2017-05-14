@@ -1,0 +1,38 @@
+uuid: d3180d38-c0fa-487f-b5a8-67fb3218c69b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_reference_imange
+    - node.type.reference
+  module:
+    - image
+id: node.reference.field_reference_imange
+field_name: field_reference_imange
+entity_type: node
+bundle: reference
+label: 'Reference Image'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image
