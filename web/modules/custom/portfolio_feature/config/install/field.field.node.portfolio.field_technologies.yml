@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_technologies
+    - node.type.portfolio
+id: node.portfolio.field_technologies
+field_name: field_technologies
+entity_type: node
+bundle: portfolio
+label: Technologies
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: ffa6cad3-ae46-48d9-85e2-23603d258520
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings: {  }
+field_type: entity_reference

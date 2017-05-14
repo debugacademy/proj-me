@@ -1,0 +1,24 @@
+uuid: ce74da63-0f7a-432e-a8df-095cf5432ed2
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.portfolio
+_core:
+  default_config_hash: nxvgL0qPqp5lTogOoDxTVoPSQKl9MGlM1WCu3bR6O_8
+id: node.portfolio.promote
+field_name: promote
+entity_type: node
+bundle: portfolio
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
