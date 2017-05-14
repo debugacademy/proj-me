@@ -1,5 +1,6 @@
 {#
 /**
+
  * @file
  * Default theme implementation to display a single page.
  *
@@ -49,7 +50,7 @@
  * - page.sidebar_first: Items for the first sidebar.
  * - page.sidebar_second: Items for the second sidebar.
  * - page.footer: Items for the footer region.
- *
+ *<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
  * @ingroup templates
  *
  * @see template_preprocess_page()
@@ -85,7 +86,8 @@
           </button>
         {% endif %}
       </div>
-     
+
+
 
       {# Navigation (collapsible) #}
       {% if page.navigation_collapsible %}
@@ -113,10 +115,11 @@
           </div>
         {% endblock %}
       {% endif %}
+    
        </div>
 
       {# Sidebar First #}
-      {% if page.sidebar_first %}
+             {% if page.sidebar_first %}
         {% block sidebar_first %}
           <aside class="col-sm-3" role="complementary">
             {{ page.sidebar_first }}
@@ -171,6 +174,9 @@
       </section>
 
       {# Sidebar Second #}
+       <div id="heros">
+      <h2>Digital development <br/> & design that is built <br/> to <span>last</span>.</h2>
+            </div>
       {% if page.sidebar_second %}
         {% block sidebar_second %}
           <aside class="col-sm-3" role="complementary">
