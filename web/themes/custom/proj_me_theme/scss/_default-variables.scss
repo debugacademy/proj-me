@@ -13,8 +13,14 @@
 // Set the proper directory for the Bootstrap Glyphicon font.
 $icon-font-path: '../bootstrap/assets/fonts/bootstrap/';
 
-// global settings
+// ------------- Global Color Styles -----------------
+// note default styles at ../bootstrap/stylesheets/bootstrap/_variables.scss
+
 $base-color: #bf5829;
 $base-grey: #525252;
+
 $black: #000000;
+$white: #FFFFFF;
+
+// ------------- Theme Element Namespace Styles -----------------
 $base-content: #f4f4f3;
