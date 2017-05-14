@@ -1,0 +1,14 @@
+uuid: a00c358b-c060-4d67-ae5f-8519d9c08080
+name: 'Moody''sSite'
+mail: mahmoudsarha@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo
