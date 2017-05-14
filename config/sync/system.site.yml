@@ -1,0 +1,14 @@
+uuid: 0003034d-1229-4224-8de0-7deb6a4c2f39
+name: 'My Portfolio'
+mail: email@site.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

@@ -1,0 +1,205 @@
+// @todo these should be their own CSS files and only included when
+// specific Drupal libraries are used.
+@import "component/alert";
+@import "component/ajax";
+@import "component/field";
+@import "component/file";
+@import "component/filter";
+@import "component/form";
+@import "component/icon";
+@import "component/navbar";
+@import "component/node";
+@import "component/panel";
+@import "component/progress-bar";
+@import "component/table-drag";
+@import "component/tabs";
+@import "component/toolbar";
+
+// jQuery UI style overrides.
+@import "jquery-ui/autocomplete";
+
+ol, ul {
+  padding-left: 1.5em;
+  .popover &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// Page header.
+.page-header {
+  margin-top: 0;
+}
+
+// Paragraphs.
+p:last-child,
+.form-group:last-child,
+.panel:last-child {
+  margin-bottom: 0;
+}
+
+// Help region.
+.region-help {
+  > .glyphicon {
+    font-size: $font-size-large;
+    float: left;
+    margin: -0.05em 0.5em 0 0;
+  }
+  .block {
+    overflow: hidden;
+  }
+}
+
+.help-block, .control-group .help-inline {
+  color: $gray-light;
+  font-size: 12px;
+  margin: 5px 0 10px;
+  padding: 0;
+  &:first-child {
+  margin-top: 0;
+  }
+}
+
+body {
+    margin-top: 0;
+}
+
+.navbar-header {
+  float: right;
+  margin-top: 20px;
+}
+
+header#navbar a.navbar-brand {
+  font-size: 23px;
+  color: white;
+}
+
+#block-proj-me-theme-main-menu {
+  float: left;
+}
+
+#block-socialmedialinks-2 {
+  float: right;
+  top: 9px;
+}
+
+.fa-facebook {
+    background-color: #bf5829;
+    border-radius: 15%;
+    color: #37293a;
+}
+
+.fa-twitter {
+    background-color: #bf5829;
+    border-radius: 35%;
+    color: #37293a;
+}
+
+.fa {
+    background-color: #bf5829;
+    border-radius: 15%;
+    color: #37293a;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    background: #110c28;
+    margin-right: 27px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-family: "Trebuchet MS";
+  }
+
+  .block-social-media-links .horizontal li, .pane-social-media-link-widget .horizontal li {
+    display: inline-block;
+    text-align: center;
+    padding: .2em 0.35em;
+    margin-right: 12px;
+}
+
+.menu li:nth-child(2) {
+  padding-right: 8px;
+}
+
+.menu li:nth-child(3) {
+  padding-right: 15px;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border: none;
+}
+
+a.name {
+  position: absolute;
+  left: 0;
+  text-transform: uppercase;
+  font-family: "Trebuchet MS";
+  color: white;
+}
+
+.hero-section-border {
+  border-bottom: 1px solid #525252;
+  padding-top: 97px;
+}
+
+.hero-section {
+  margin-top: 70px;
+  font-family: "Bodoni MT";
+  color: white;
+}
+
+.hero-text {
+    font-size: 46px;
+}
+
+u {
+  text-decoration: none;
+  border-bottom: .5px solid white;
+}
+
+.last {
+  font-style: italic;
+}
+
+.button {
+    font-family: "Trebuchet MS";
+    padding: 12px 24px;
+    background-color: #bf5829;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 30px;
+}
+
+.call-to-action p {
+  font-size: 11px;
+}
+
+#hero {
+  background-image: url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  height: 468px;
+  background-size: cover;
+}
+
+.footer {
+  margin-top: 45px;
+  padding-top: 35px;
+  padding-bottom: 36px;
+  border-top: 1px solid #525252;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #161616;
+  color: #525252;
+  font-family: "Trebuchet MS";
+  width: 100%;
+}
+
+.footer-copyright-year {
+  color: #bf5829;
+}
+
+// global settings
+$base-color: #bf5829;
+$base-grey: #525252;
+$black: #000000;
+$base-content: #f4f4f3;
