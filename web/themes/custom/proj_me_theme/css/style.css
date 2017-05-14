@@ -6281,6 +6281,17 @@ body.toolbar-fixed.toolbar-vertical.toolbar-tray-open.toolbar-fixed {
       width: 240px; }
 
 /**
+ * Default Variables.
+ *
+ * Modify this file to provide default Bootstrap Framework variables. The
+ * Bootstrap Framework will not override any variables defined here because it
+ * uses the `!default` flag which will only set their default if not already
+ * defined here.
+ *
+ * You can copy existing variables directly from the following file:
+ * ./THEMENAME/bootstrap/assets/stylesheets/bootstrap/_variables.scss
+ */
+/**
  * jQuery UI autocomplete widget style overrides.
  *
  * $todo Remove once jQuery UI is no longer used?
@@ -6383,5 +6394,49 @@ body {
 
 .footer-copyright-year {
   color: #bf5829; }
+
+.block-social-media-links .horizontal li, .pane-social-media-link-widget .horizontal li {
+  display: inline-block;
+  text-align: center;
+  padding: .2em .35em;
+  margin-right: 16px; }
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  background: black;
+  padding: 10px;
+  text-transform: uppercase; }
+
+.navbar-nav {
+  float: left;
+  margin: 0;
+  padding-right: 36px;
+  margin-left: 719px; }
+
+.navbar-default .navbar-brand {
+  color: red;
+  text-transform: uppercase; }
+
+.navbar-default .navbar-brand::last-word {
+  color: white;
+  text-transform: uppercase; }
+
+.page-header {
+  margin-top: 0;
+  width: 1390px;
+  margin-left: -24px;
+  margin-top: -35px;
+  opacity: 0.2; }
+
+h2, .h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Playfair Display', serif; }
+
+h2 span {
+  font-style: italic; }
 
 /*# sourceMappingURL=style.css.map */
