@@ -1,0 +1,14 @@
+uuid: 4a7ce474-92cd-42f0-9a3e-4a27337154a7
+name: Portfolio
+mail: slsonnier@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

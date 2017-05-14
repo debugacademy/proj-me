@@ -1,0 +1,52 @@
+uuid: 09514fff-4e6d-404a-adca-47bbc55ad5df
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.contact_
+    - field.field.contact_message.contact_.field_email
+    - field.field.contact_message.contact_.field_name
+    - field.field.contact_message.contact_.field_phone
+    - field.field.contact_message.contact_.field_source
+  module:
+    - telephone
+id: contact_message.contact_.default
+targetEntityType: contact_message
+bundle: contact_
+mode: default
+content:
+  copy:
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+  field_email:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+  field_name:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  field_phone:
+    weight: 2
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: telephone_default
+  field_source:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+hidden:
+  mail: true
+  message: true
+  name: true
+  preview: true
+  subject: true

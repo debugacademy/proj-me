@@ -1,0 +1,26 @@
+uuid: cf05957d-9a1a-4a48-8ad6-958d52f8f196
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.references.body
+    - node.type.references
+  module:
+    - text
+    - user
+id: node.references.teaser
+targetEntityType: node
+bundle: references
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }

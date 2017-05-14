@@ -1,0 +1,12 @@
+uuid: 87d9a25b-7ece-40e0-9974-0e5c58c864c2
+langcode: en
+status: true
+dependencies: {  }
+id: contact_
+label: 'Contact Us'
+recipients:
+  - slsonnier@gmail.com
+reply: ''
+weight: 0
+message: ''
+redirect: ''

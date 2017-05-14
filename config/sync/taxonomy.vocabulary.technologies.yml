@@ -1,0 +1,9 @@
+uuid: b3274bdf-08db-41df-a351-9def4c6a3f8d
+langcode: en
+status: true
+dependencies: {  }
+name: Technologies
+vid: technologies
+description: 'Tech vocabulary'
+hierarchy: 0
+weight: 0
