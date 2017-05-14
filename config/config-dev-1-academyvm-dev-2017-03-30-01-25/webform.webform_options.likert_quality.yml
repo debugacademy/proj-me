@@ -1,0 +1,12 @@
+uuid: 83ce40e3-215e-4a6c-8970-beedd340eff2
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: kyCI0E0VJVJXi_Z61m6Mom95_ot1haYPehpPr_IxdcM
+id: likert_quality
+label: 'Likert: Quality'
+options: "1: Poor\n2: Fair\n3: Good\n4: Very good\n5: Excellent\n"
