@@ -1,4 +1,4 @@
-uuid: a7f20ebb-dd62-4fed-a26f-0cf6e367c509
+uuid: ddbf0bcd-1acb-4955-994d-386a64de76c0
 langcode: en
 status: true
 dependencies:
@@ -6,17 +6,17 @@ dependencies:
     - social_media_links
   theme:
     - proj_me_theme
-id: proj_me_theme_socialmedialinks
+id: socialmedialinks_2
 theme: proj_me_theme
-region: footer
-weight: -7
+region: navigation
+weight: 0
 provider: null
 plugin: social_media_links_block
 settings:
   id: social_media_links_block
   label: 'Social Media Links'
   provider: social_media_links
-  label_display: visible
+  label_display: '0'
   platforms:
     behance:
       value: ''
@@ -43,7 +43,7 @@ settings:
       description: ''
       weight: '-5'
     github:
-      value: msheikh12
+      value: test
       description: ''
       weight: '-4'
     googleplus:
@@ -55,7 +55,7 @@ settings:
       description: ''
       weight: '-2'
     linkedin:
-      value: in/mohamed-sheikh-3ab3582b/
+      value: test
       description: ''
       weight: '-1'
     pinterest:
@@ -83,11 +83,11 @@ settings:
       description: ''
       weight: '5'
     youtube:
-      value: ''
+      value: test
       description: ''
       weight: '6'
     youtube_channel:
-      value: UCnkjZDGRwfK9p_MS8Gz8ASg
+      value: ''
       description: ''
       weight: '7'
   appearance:
@@ -97,7 +97,7 @@ settings:
     target: '<none>'
     rel: '<none>'
   iconset:
-    style: 'fontawesome:3x'
+    style: 'fontawesome:2x'
     installed_iconsets:
       fontawesome:
         examples: ''

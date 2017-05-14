@@ -9,6 +9,7 @@ template: false
 id: contact_me
 title: 'Contact Me'
 description: ''
+category: null
 elements: "name:\n  '#type': textfield\n  '#title': Name\n  '#required': true\n  '#required_error': 'Type your name'\nemail:\n  '#type': email\n  '#title': Email\n  '#required': true\n  '#required_error': 'Type your email'\nphone:\n  '#type': tel\n  '#title': Phone\nhow_did_you_find_me_:\n  '#type': select\n  '#title': 'How did you find me?'\n  '#options':\n    drupal.org: drupal.org\n    'Search Engine': 'Search Engine'\n    Recommendation: Recommendation\n    'Meet up': 'Meet up'\n    Other: Other\n"
 css: ''
 javascript: ''
@@ -48,7 +49,7 @@ settings:
   preview_prev_button_label: ''
   preview_prev_button_attributes: {  }
   preview_message: ''
-  draft: false
+  draft: ''
   draft_auto_save: false
   draft_button_label: ''
   draft_button_attributes: {  }

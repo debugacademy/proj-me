@@ -26,7 +26,10 @@
         "drupal/cog": "^1.7",
         "drupal/bootstrap": "^3.3",
         "drupal/webform": "^5.0@beta",
-        "drupal/admin_toolbar": "^1.19"
+        "drupal/admin_toolbar": "^1.19",
+        "drupal/panels": "^4.1",
+        "drupal/bootstrap_layouts": "^4.1",
+        "drupal/page_manager": "^4.0@beta"
     },
     "require-dev": {
         "behat/mink": "~1.7",
