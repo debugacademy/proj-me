@@ -1,5 +1,5 @@
-# Schema for the theme setting configuration file of the THEMETITLE theme.
+# Schema for the theme setting configuration file of the proj_me_theme theme.
 
 THEMENAME.settings:
   type: theme_settings
-  label: 'THEMETITLE settings'
+  label: 'proj_me_theme settings'
