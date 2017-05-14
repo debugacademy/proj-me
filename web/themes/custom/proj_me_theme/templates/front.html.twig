@@ -57,6 +57,14 @@
  */
 #}
 {% set container = theme.settings.fluid_container ? 'container-fluid' : 'container' %}
+<div>
+  <h2 style="hero.jpg">
+Background-img
+</h2>
+</header>
+  {% endblock %}
+{% endif %}
+<div>
 {# Navbar #}
 {% if page.navigation or page.navigation_collapsible %}
   {% block navbar %}
@@ -83,7 +91,6 @@
           </button>
         {% endif %}
       </div>
-
       {# Navigation (collapsible) #}
       {% if page.navigation_collapsible %}
         <div id="navbar-collapse" class="navbar-collapse collapse">
