@@ -39,6 +39,7 @@ ol, ul {
   border-top: 1px solid #E5E5E5;
 }
 
+
 // Paragraphs.
 p:last-child,
 .form-group:last-child,
@@ -70,9 +71,15 @@ p:last-child,
 }
 
 
-  .navbar-default {
-   background-image:url('hero.jpg');
+    // HEADER 
+
+  #hero {
+   background-image:url(' ../images/hero.jpg');
   }
+
+
+
+
 
  // global settings
 $base-color: #bf5829;

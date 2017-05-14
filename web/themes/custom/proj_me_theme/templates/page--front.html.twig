@@ -58,14 +58,13 @@
 #}
 {% set container = theme.settings.fluid_container ? 'container-fluid' : 'container' %}
 
-<div class= Navbar-container>
-<img src="hero.jpg">
+<div id= "hero">
+
 {# Navbar #}
 
 {% if page.navigation or page.navigation_collapsible %}
   {% block navbar %}
-  </div>
-  </img>
+ 
     {%
       set navbar_classes = [
         'navbar',
@@ -103,6 +102,7 @@
   {% endblock %}
 {% endif %}
 
+
 {# Main #}
 {% block main %}
   <div role="main" class="main-container {{ container }} js-quickedit-main-content">
@@ -117,6 +117,8 @@
         {% endblock %}
       {% endif %}
 
+
+   </div>
       {# Sidebar First #}
       {% if page.sidebar_first %}
         {% block sidebar_first %}
@@ -135,6 +137,8 @@
           page.sidebar_first is empty and page.sidebar_second is empty ? 'col-sm-12'
         ]
       %}
+
+
       <section{{ content_attributes.addClass(content_classes) }}>
 
         {# Highlighted #}
