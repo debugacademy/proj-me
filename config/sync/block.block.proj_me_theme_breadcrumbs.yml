@@ -11,7 +11,7 @@ _core:
 id: proj_me_theme_breadcrumbs
 theme: proj_me_theme
 region: content
-weight: -7
+weight: -6
 provider: null
 plugin: system_breadcrumb_block
 settings:
