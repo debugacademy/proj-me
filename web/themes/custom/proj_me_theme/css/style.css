@@ -6364,23 +6364,31 @@ header#navbar a.navbar-brand {
   float: left; }
 
 #block-socialmedialinks-2 {
-  float: right;
-  top: 9px; }
+  float: right; }
 
 .fa-facebook {
   background-color: #bf5829;
-  border-radius: 15%;
-  color: #37293a; }
+  border-radius: 50%;
+  color: #37293a;
+  border: 13px solid #bf5829;
+  border-top: 7px solid #bf5829;
+  border-bottom: 6px solid #bf5829; }
 
 .fa-twitter {
   background-color: #bf5829;
-  border-radius: 35%;
-  color: #37293a; }
+  border-radius: 50%;
+  color: #37293a;
+  border: 7px solid #bf5829;
+  border-right: 8px solid #bf5829;
+  border-left: 8px solid #bf5829; }
 
-.fa {
+.fa-linkedin {
   background-color: #bf5829;
-  border-radius: 15%;
-  color: #37293a; }
+  border-radius: 50%;
+  color: #37293a;
+  border: 7px solid #bf5829;
+  border-right: 9px solid #bf5829;
+  border-left: 9px solid #bf5829; }
 
 .navbar-default .navbar-nav > li > a {
   color: white;
@@ -6388,7 +6396,7 @@ header#navbar a.navbar-brand {
   margin-right: 27px;
   padding: 10px 30px;
   text-transform: uppercase;
-  font-family: "Trebuchet MS"; }
+  ont-family: "Trebuchet MS"; }
 
 .block-social-media-links .horizontal li, .pane-social-media-link-widget .horizontal li {
   display: inline-block;
@@ -6423,7 +6431,8 @@ a.name {
   color: white; }
 
 .hero-text {
-  font-size: 46px; }
+  font-size: 46px;
+  font-weight: 600; }
 
 u {
   text-decoration: none;
@@ -6432,13 +6441,14 @@ u {
 .last {
   font-style: italic; }
 
-.button {
+#hero .button {
   font-family: "Trebuchet MS";
   padding: 12px 24px;
   background-color: #bf5829;
   text-transform: uppercase;
   border: none;
-  margin-top: 30px; }
+  margin-top: 30px;
+  color: #d6d6d6; }
 
 .call-to-action p {
   font-size: 11px; }
@@ -6449,11 +6459,106 @@ u {
   height: 468px;
   background-size: cover; }
 
-.footer {
-  margin-top: 45px;
-  padding-top: 35px;
+#hero-two {
+  background-image: url(../images/hero-two.jpg);
+  background-repeat: no-repeat;
+  height: 468px;
+  background-size: cover; }
+
+.block-views-blockview-portfolio-block-1 h2.block-title {
+  font-size: 15px;
+  font-family: "Trebuchet MS";
+  color: #aaaaaa;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 90px;
+  margin-botom: 8px; }
+
+.block-views-blockview-portfolio-block-1 .view-header {
+  color: #382a3b;
+  text-align: center;
+  font-family: "Bodoni MT";
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 20px; }
+
+.block-views-blockview-portfolio-block-1 .view-content {
+  text-align: center; }
+
+.view-content .views-row {
+  width: 43%;
+  text-align: center;
+  display: inline-block;
+  margin: 15px; }
+
+.block-views-blockview-portfolio-block-1 .more-link {
+  text-align: center;
+  margin-top: 65px;
+  margin-bottom: 50px; }
+
+.block-views-blockview-portfolio-block-1 .more-link a {
+  background-color: #bf5829;
+  color: #d6d6d6;
+  text-transform: uppercase;
+  padding: 15px 65px;
+  font-family: "Trebuchet MS"; }
+
+.footer.container {
+  width: 100%;
+  padding: 0; }
+
+.region.region-footer {
+  width: 100%; }
+
+/**
+* #block-calltoaction {
+*  padding-top: 60px;
+*  padding-bottom: 55px;
+*  margin-top: 50px;
+*  text-align: center;
+*  background-color: #272727;
+*  color: #525252;
+*  font-family: "Bodoni MT";
+*  font-size: 40px;
+*  font-weight: 600;
+*  width: 100%;
+* }
+*/
+/** 
+* #block-calltoaction .lets-build {
+*  margin: 0px 25px;
+*  background-color: #bf5829;
+*  color: #d6d6d6;
+*  text-transform: uppercase;
+*  padding: 15px 50px;
+*  font-family: "Trebuchet MS";
+*  font-size: 15px;
+* }
+*/
+/** 
+
+* #block-templateprogrammed {
+*  padding-top: 35px;
+*  padding-bottom: 36px;
+*  text-align: center;
+*  background-color: #161616;
+*  color: #525252;
+*  font-family: "Bodoni MT";
+*  font-size: 24px;
+*  font-weight: 600;
+*  width: 100%;
+* }
+*/
+/*
+ #block-templateprogrammed .debug-academy {
+  color: #f4a742;
+  border-bottom: 1px solid #f4a742;
+}
+*/
+.footer-copyright {
+  padding-top: 30px;
   padding-bottom: 36px;
-  border-top: 1px solid #525252;
+  border-top: 1px solid #282828;
   text-align: center;
   text-transform: uppercase;
   background-color: #161616;
