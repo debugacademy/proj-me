@@ -6443,6 +6443,33 @@ u {
 .call-to-action p {
   font-size: 11px; }
 
+.block-title {
+  color: #aaaaaa;
+  text-align: center;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
+
+.view-header {
+  color: #382a3b;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 1px; }
+
+.more-link {
+  background-color: #bf5829;
+  padding: 7px;
+  padding-left: 25px;
+  position: relative;
+  left: 495px;
+  text-decoration: none;
+  font-size: 12px;
+  letter-spacing: 1px;
+  width: 14%; }
+
+div.more-link a {
+  color: #ffffff; }
+
 #hero {
   background-image: url(../images/hero.jpg);
   background-repeat: no-repeat;
