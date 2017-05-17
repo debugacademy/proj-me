@@ -1,4 +1,4 @@
-uuid: ddbf0bcd-1acb-4955-994d-386a64de76c0
+uuid: 1c52ec29-5163-44b4-a971-035ba89c3404
 langcode: en
 status: true
 dependencies:
@@ -39,42 +39,42 @@ settings:
       description: ''
       weight: '-6'
     facebook:
-      value: ''
+      value: '#'
       description: ''
       weight: '-5'
-    github:
-      value: test
+    twitter:
+      value: '#'
       description: ''
       weight: '-4'
-    googleplus:
+    github:
       value: ''
       description: ''
       weight: '-3'
-    instagram:
+    googleplus:
       value: ''
       description: ''
       weight: '-2'
-    linkedin:
-      value: test
+    instagram:
+      value: ''
       description: ''
       weight: '-1'
+    linkedin:
+      value: '#'
+      description: ''
+      weight: '0'
     pinterest:
       value: ''
       description: ''
-      weight: '0'
+      weight: '1'
     rss:
       value: ''
       description: ''
-      weight: '1'
+      weight: '2'
     slideshare:
       value: ''
       description: ''
-      weight: '2'
-    tumblr:
-      value: ''
-      description: ''
       weight: '3'
-    twitter:
+    tumblr:
       value: ''
       description: ''
       weight: '4'
@@ -83,7 +83,7 @@ settings:
       description: ''
       weight: '5'
     youtube:
-      value: test
+      value: ''
       description: ''
       weight: '6'
     youtube_channel:
