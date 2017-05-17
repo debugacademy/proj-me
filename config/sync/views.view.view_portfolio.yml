@@ -214,12 +214,64 @@ display:
             label: ''
           granularity: second
       title: Portfolio
-      header: {  }
+      header:
+        area:
+          id: area
+          table: views
+          field: area
+          plugin_id: text
       footer: {  }
       empty: {  }
       relationships: {  }
       arguments: {  }
       display_extenders: {  }
+      use_more: true
+      use_more_always: true
+      use_more_text: 'View All Projects'
+      link_url: ''
+      link_display: page_1
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_picture'
+  block_1:
+    display_plugin: block
+    id: block_1
+    display_title: Block
+    position: 2
+    display_options:
+      display_extenders: {  }
+      header:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          tokenize: false
+          content:
+            value: 'Web & app development with a focus on quality functionality.  '
+            format: basic_html
+          plugin_id: text
+      defaults:
+        header: false
+        use_more: false
+        use_more_always: false
+        use_more_text: false
+        link_display: false
+        link_url: false
+      use_more: true
+      use_more_always: true
+      use_more_text: 'View All Projects'
+      link_display: page_1
+      link_url: ''
     cache_metadata:
       max-age: -1
       contexts:
