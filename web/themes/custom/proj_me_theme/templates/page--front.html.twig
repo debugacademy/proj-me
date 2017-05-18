@@ -57,8 +57,25 @@
  */
 #}
 {% set container = theme.settings.fluid_container ? 'container-fluid' : 'container' %}
+STANDARD 
+<link href="https://fonts.googleapis.com/css?family=Oswald|Playfair+Display|Poly" rel="stylesheet">
+Specify in CSS
+@IMPORT
+<style>
+@import url('https://fonts.googleapis.com/css?family=Oswald|Playfair+Display|Poly');
+</style>
+Use the following CSS rules to specify these families:
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poly', serif;
 
-<div id="hero">
+
+<link href="https://fonts.googleapis.com/css?family=Oswald:400,600|Playfair+Display:400,700|Poly" rel="stylesheet">
+<style>
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,600|Playfair+Display:400,700|Poly');
+</style>
+
+<div id="hero" {% if proj_me_header %} style = "background-image: url({{proj_me_header}});" {% endif %}>
 
 {# Navbar #}
 {% if page.navigation or page.navigation_collapsible %}
