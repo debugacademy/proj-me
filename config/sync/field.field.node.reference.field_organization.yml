@@ -1,0 +1,19 @@
+uuid: dd491c60-54f3-48ac-98b6-bd4bd0337303
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_organization
+    - node.type.reference
+id: node.reference.field_organization
+field_name: field_organization
+entity_type: node
+bundle: reference
+label: Organization
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
