@@ -1,4 +1,4 @@
-uuid: 78798d36-aa16-4850-bc0b-cbbba2993784
+uuid: 6cde46ba-9019-484c-af14-e6882280e27c
 langcode: en
 status: true
 dependencies:
@@ -9,11 +9,11 @@ dependencies:
     - panels
     - views
 id: homepage-panels_variant-0
-label: Home
+label: home
 variant: panels_variant
 variant_settings:
   blocks:
-    5ac8d0b7-724a-4da6-adf8-d5c787c901b9:
+    da4e708a-aea4-4ecb-9df3-09d1a8fcf6a9:
       id: 'views_block:view_portfolio-block_1'
       label: ''
       provider: views
@@ -22,15 +22,15 @@ variant_settings:
       items_per_page: none
       region: content
       weight: 0
-      uuid: 5ac8d0b7-724a-4da6-adf8-d5c787c901b9
+      uuid: da4e708a-aea4-4ecb-9df3-09d1a8fcf6a9
       context_mapping: {  }
   id: panels_variant
-  uuid: b36bbf5c-dfb2-4366-8225-79da7c59064c
+  uuid: e04111d8-6fab-43ee-a093-a93e76ac6c4f
   label: null
   weight: 0
   layout: layout_onecol
   layout_settings: {  }
-  page_title: null
+  page_title: ''
   storage_type: page_manager
   storage_id: homepage-panels_variant-0
   builder: standard

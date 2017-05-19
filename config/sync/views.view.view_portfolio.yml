@@ -219,14 +219,6 @@ display:
           id: area
           table: views
           field: area
-          relationship: none
-          group_type: group
-          admin_label: ''
-          empty: false
-          tokenize: false
-          content:
-            value: 'Web app & development with a focus quality functionality.'
-            format: basic_html
           plugin_id: text
       footer: {  }
       empty: {  }
@@ -236,6 +228,8 @@ display:
       use_more: true
       use_more_always: true
       use_more_text: 'View All Projects'
+      link_url: ''
+      link_display: page_1
     cache_metadata:
       max-age: -1
       contexts:
@@ -263,7 +257,7 @@ display:
           empty: false
           tokenize: false
           content:
-            value: 'Web & app development with a focus quality functionality.'
+            value: 'Web & app development with a focus on quality functionality.  '
             format: basic_html
           plugin_id: text
       defaults:
@@ -273,12 +267,11 @@ display:
         use_more_text: false
         link_display: false
         link_url: false
-        pager: true
-      link_display: page_1
-      link_url: ''
       use_more: true
       use_more_always: true
       use_more_text: 'View All Projects'
+      link_display: page_1
+      link_url: ''
     cache_metadata:
       max-age: -1
       contexts:
@@ -296,13 +289,6 @@ display:
     display_options:
       display_extenders: {  }
       path: portfolio
-      use_more: false
-      defaults:
-        use_more: false
-        use_more_always: false
-        use_more_text: false
-      use_more_always: true
-      use_more_text: 'View All Projects'
     cache_metadata:
       max-age: -1
       contexts:
