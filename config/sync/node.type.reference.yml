@@ -1,0 +1,18 @@
+uuid: d3b5a560-0b60-42b9-9dcc-ded4fc6ee559
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Reference
+type: reference
+description: 'This is my reference page.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true
