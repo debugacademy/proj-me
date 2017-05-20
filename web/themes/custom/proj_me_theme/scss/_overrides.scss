@@ -325,6 +325,29 @@ $base-content: #f4f4f3;
 }
 */
 
+
+
+
+
+.region-footer{
+  text-align: center;
+    width: 100%;
+    display: inherit;
+    background-color: #181818;
+    color: #525252;
+    border-bottom-color: #292929;
+    font-family: "Playfair Display";
+    font-size: 16px;
+    padding: 25px;
+}
+
+.region-footer a{
+      color: #ffae3f;
+    text-decoration: underline;
+    padding: 5px;
+}
+
+
 .footer-copyright {
   padding-top: 30px;
   padding-bottom: 36px;
