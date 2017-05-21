@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains proj_me_ui_elements.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function proj_me_ui_elements_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the proj_me_ui_elements module.
+    case 'help.page.proj_me_ui_elements':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function proj_me_ui_elements_theme() {
+  return [
+    'proj_me_ui_elements' => [
+      'render element' => 'children',
+    ],
+  ];
+}
