@@ -1070,7 +1070,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.3",
-                    "datestamp": "1491860942"
+                    "datestamp": "1495040301"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -1111,7 +1111,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/bootstrap_layouts-8.x-4.1.zip",
-                "reference": null,
+                "reference": "8.x-4.1",
                 "shasum": "3f1e7598e9a476e4d396ddc1e49cd2851e948a2c"
             },
             "require": {
@@ -1911,7 +1911,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/page_manager-8.x-4.0-beta2.zip",
-                "reference": null,
+                "reference": "8.x-4.0-beta2",
                 "shasum": "29a4dda0f068b5df5971eb8319c675cd8e5c78b3"
             },
             "require": {
@@ -1970,7 +1970,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/panels-8.x-4.1.zip",
-                "reference": null,
+                "reference": "8.x-4.1",
                 "shasum": "cebfa67934408dbd9f181054ec640b1d2ef6ef3e"
             },
             "require": {
@@ -2064,7 +2064,7 @@
                 },
                 "drupal": {
                     "version": "8.x-2.2",
-                    "datestamp": "1485022383"
+                    "datestamp": "1495206185"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
