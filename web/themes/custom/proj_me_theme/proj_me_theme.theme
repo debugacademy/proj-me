@@ -9,4 +9,33 @@
 function proj_me_theme_preprocess(&$variables) {
 	$variables['year'] = date('Y');
 	$variables['site_name'] = \Drupal::config('system.site')->get('name');
+
+	$variables['proj_me_header'] = print_r(theme_get_setting('proj_me_header'), true);
+
+}
+
+function proj_me_theme_form_system_theme_settings_alter(&$form, \Drupal\Core\Form\FormStateInterface &$form_state) {
+	
+	$form['proj_me_header'] = array(
+    '#type' => 'managed_file',
+    '#default_value' => theme_get_setting('proj_me_header'),
+    '#title' => t('Hero Image'),
+    '#description' => t('Upload a file, allowed extensions: jpg, jpeg, png, gif'),
+    '#upload_location' => 'public://'
+  );
+  $form['#submit'][] = 'proj_me_theme_form_system_theme_settings_submit';
+  return $form;
+
+}
+
+function proj_me_theme_form_system_theme_settings_submit(&$form, \Drupal\Core\Form\FormStateInterface $form_state) {
+  if ($form_state->getValue('proj_me_header')) {
+    $element = $form_state->getValue('proj_me_header');
+    if (!empty($element[0])){
+      // Make submited files permanent.
+      $file = \Drupal\file\Entity\File::load($element[0]);
+      $file->setPermanent();
+      $file->save();
+    }
+  }
 }
