@@ -10,8 +10,11 @@ function proj_me_theme_preprocess(&$variables) {
 	$variables['year'] = date('Y');
 	$variables['site_name'] = \Drupal::config('system.site')->get('name');
 
-	$variables['proj_me_header'] = print_r(theme_get_setting('proj_me_header'), true);
-
+	$hero_image = theme_get_setting('proj_me_header');
+	if (!empty($hero_image)) {
+  		$hero_file = \Drupal\file\Entity\File::load($hero_image[0]);
+  		$variables['hero_file_url'] = file_create_url($hero_file->getFileUri());
+  	}
 }
 
 function proj_me_theme_form_system_theme_settings_alter(&$form, \Drupal\Core\Form\FormStateInterface &$form_state) {
