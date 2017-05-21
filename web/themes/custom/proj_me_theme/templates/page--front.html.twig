@@ -58,7 +58,7 @@
 #}
 {% set container = theme.settings.fluid_container ? 'container-fluid' : 'container' %}
 
-<div id="hero">
+<div id="hero" {% if proj_me_header %} style="background-image: url({{proj_me_header}});" {% endif %}>
 
 {# Navbar #}
 {% if page.navigation or page.navigation_collapsible %}
