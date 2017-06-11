@@ -1,0 +1,22 @@
+uuid: cefbda85-8d1f-4616-991c-167466bdbc9d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - proj_me_theme
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: proj_me_theme_content
+theme: proj_me_theme
+region: content
+weight: -2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }
