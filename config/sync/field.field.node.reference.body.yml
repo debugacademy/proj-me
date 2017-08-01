@@ -1,0 +1,22 @@
+uuid: b4bfac55-271b-4ac4-99a3-38e3aa42df4c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.reference
+  module:
+    - text
+id: node.reference.body
+field_name: body
+entity_type: node
+bundle: reference
+label: Body
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
