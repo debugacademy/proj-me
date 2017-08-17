@@ -1,0 +1,8 @@
+uuid: f92a9fb8-25ac-421c-965c-12dd22a3faaf
+langcode: en
+status: true
+dependencies: {  }
+id: blod_date
+label: 'Blog date'
+locked: false
+pattern: 'F j, Y'

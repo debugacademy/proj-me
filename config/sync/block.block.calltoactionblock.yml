@@ -1,0 +1,20 @@
+uuid: f738924d-d8dc-4679-b997-1153e91bd32c
+langcode: en
+status: true
+dependencies:
+  module:
+    - proj_me_core
+  theme:
+    - proj_me_theme
+id: calltoactionblock
+theme: proj_me_theme
+region: footer
+weight: -4
+provider: null
+plugin: call_to_action_block
+settings:
+  id: call_to_action_block
+  label: 'Call To Action Block'
+  provider: proj_me_core
+  label_display: '0'
+visibility: {  }

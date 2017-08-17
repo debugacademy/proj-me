@@ -1,0 +1,20 @@
+uuid: 23c2cdc8-50ef-46d8-91a1-69111b4f6b64
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_headline
+  module:
+    - user
+id: user.user.field_headline
+field_name: field_headline
+entity_type: user
+bundle: user
+label: Headline
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

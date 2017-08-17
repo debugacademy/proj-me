@@ -1,0 +1,20 @@
+uuid: 4ad30692-8cbb-4e87-bd36-9fb6ddfdfe7d
+langcode: en
+status: true
+dependencies:
+  module:
+    - proj_me_core
+  theme:
+    - proj_me_theme
+id: debugacademyblock
+theme: proj_me_theme
+region: footer
+weight: -3
+provider: null
+plugin: debug_academy_block
+settings:
+  id: debug_academy_block
+  label: 'Debug Academy Block'
+  provider: proj_me_core
+  label_display: '0'
+visibility: {  }

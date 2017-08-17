@@ -1,0 +1,29 @@
+uuid: 3ab5faad-a8a5-47d1-ba97-7b979445ac56
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_service_skills
+    - taxonomy.vocabulary.technologies
+  module:
+    - user
+id: user.user.field_service_skills
+field_name: field_service_skills
+entity_type: user
+bundle: user
+label: Service/Skills
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      technologies: technologies
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

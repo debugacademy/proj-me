@@ -1,0 +1,38 @@
+<?php
+/**
+ * @file
+ * Bootstrap sub-theme.
+ *
+ * Place your custom PHP code in this file.
+ */
+
+function proj_me_theme_preprocess(&$variables) {
+	$variables['year'] = date('Y');
+	$variables['site_name'] = \Drupal::config('system.site')->get('name');
+
+	$hero_file_settings = theme_get_setting('proj_me_header');
+	if (!empty($hero_file_settings[0])) {
+		$hero_file = \Drupal\file\Entity\File::load($hero_file_settings[0]);
+		// FYI: adding this 'check' fixed the problem.
+		if (!empty($hero_file)) {
+			// The problem was there was no "hero_file" found
+			// but this core was trying to get the file Uri of the hero_file
+			// so it was throwing an error
+			$hero_file_uri = $hero_file->getFileUri();
+			$variables['proj_me_header'] = file_create_url($hero_file_uri);
+		}
+	}
+}
+
+function proj_me_theme_form_system_theme_settings_alter(&$form, \Drupal\Core\Form\FormStateInterface &$form_state) {
+	
+	$form['proj_me_header'] = array(
+    '#type' => 'managed_file',
+    '#default_value' => theme_get_setting('proj_me_header'),
+    '#title' => t('Hero Image'),
+    '#description' => t('Upload a file, allowed extensions: jpg, jpeg, png, gif'),
+    '#upload_location' => 'public://'
+  );
+  return $form;
+}
+

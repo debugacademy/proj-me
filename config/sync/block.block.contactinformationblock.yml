@@ -1,0 +1,26 @@
+uuid: 3d5747ed-71c3-4614-a6a4-ed56ab15cd28
+langcode: en
+status: true
+dependencies:
+  module:
+    - proj_me_core
+    - system
+  theme:
+    - proj_me_theme
+id: contactinformationblock
+theme: proj_me_theme
+region: highlighted
+weight: 0
+provider: null
+plugin: contact_information_block
+settings:
+  id: contact_information_block
+  label: 'Contact Information Block'
+  provider: proj_me_core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /form/contact-me
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,28 @@
+uuid: 13762efe-7c82-433b-aad3-89f3d4ba2b62
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - social_media
+  theme:
+    - proj_me_theme
+id: socialsharingblock
+theme: proj_me_theme
+region: footer
+weight: -6
+provider: null
+plugin: social_sharing_block
+settings:
+  id: social_sharing_block
+  label: 'Share this post'
+  provider: social_media
+  label_display: visible
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      blog: blog
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
